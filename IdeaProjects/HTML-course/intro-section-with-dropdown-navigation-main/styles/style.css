@@ -1,0 +1,144 @@
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 10% 45% 35% 10%;
+}
+
+.first-column {
+    display: grid;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    justify-content: center;
+}
+
+.menu-button {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
+    border: none;
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.dropdown-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-top: .75rem;
+}
+
+.dropdown {
+    position: relative;
+    height: 10vh;
+}
+
+.dropdown-menu {
+    display: grid;
+    position: absolute;
+    left: -1.5rem;
+    top: 3rem;
+    background-color: white;
+    padding: 1rem;
+    line-height: 1.75rem;
+    border-radius: .25rem;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, .5);
+}
+
+
+h1 {
+    font-size: 88px;
+    padding-bottom: 6rem;
+}
+
+p {
+    width: 30vw;
+    display: flex;
+    font-size: 24px;
+    line-height: 2rem;
+}
+
+.second-column {
+    display: grid;
+}
+
+.main-body {
+    display: grid;
+    grid-template-rows: 42% 28% 30%;
+}
+
+.learn-more-button-active {
+    font-size: 18px;
+    color: black;
+    background-color: hsl(0, 0%, 98%);
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 9rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.learn-more-button {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+    width: 9rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.third-column {
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+    justify-content: end;
+}
+
+.logo-tags {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    padding-bottom: 4rem;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+}
+
+.login-button {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
+    border: none;
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.hero-image-container {
+    padding-top: 1rem;
+}
+
+.hero-image {
+    width: 35vw;
+    height: 75vh;
+}
+
+.fourth-column {
+    padding-top: 1rem;
+}
+
+.register-button {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 1rem;
+    border: 2px solid black;
+    width: 7rem;
+    height: 3rem;
+    cursor: pointer;
+}

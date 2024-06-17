@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+	</head>
+	<body>
+		<div class="page-container">
+			<div class="first-column">
+				<img src="images/logo.svg">
+			</div>
+			<div class="second-column">
+				<div class="dropdown-container">
+					<div class="dropdown">
+						<button class="menu-button" onclick="onDrop('features')">Features</button>
+						<div id="features" class="dropdown-menu" style="display: none;">
+							<div>
+								<img src="images/icon-todo.svg">
+								Todo List
+							</div>
+							<div>
+								<img src="images/icon-calendar.svg">
+								Calendar
+							</div>
+							<div>
+								<img src="images/icon-reminders.svg">
+								Reminders
+							</div>
+							<div>
+								<img src="images/icon-planning.svg">
+								Planning
+							</div>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="menu-button" onclick="onDrop('company')">Company</button>
+						<div id="company" class="dropdown-menu" style="display: none;">
+							<div>
+								History
+							</div>
+							<div>
+								Our Team
+							</div>
+							<div>
+								Blog
+							</div>
+						</div>
+					</div>
+					<button class="menu-button">
+						Careers
+					</button>
+					<button class="menu-button">
+						About
+					</button>
+				</div>
+				<div class="main-body">
+					<div>
+						<h1 class="heading">
+							Make Remote Work
+						</h1>
+					</div>
+					<div>
+						<p>
+							Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+						</p>
+					</div>
+					<div>
+						<button id="learn" class="learn-more-button" onclick="learnMore()">
+							Learn More
+						</button>
+					</div>
+				</div>
+				<div class="logo-tags">
+					<img src="images/client-databiz.svg">
+					<img src="images/client-audiophile.svg">
+					<img src="images/client-meet.svg">
+					<img src="images/client-maker.svg">
+				</div>
+			</div>
+			<div class="third-column">
+				<div class="login-container">
+					<button class="login-button">
+						Login
+					</button>
+				</div>
+				<div class="hero-image-container">
+					<img class="hero-image" src="images/image-hero-desktop.png">
+				</div>
+			</div>
+			<div class="fourth-column">
+				<button class="register-button">
+					Register
+				</button>
+			</div>
+		</div>
+		<script src="scripts/app.js"></script>
+	</body>
+</html>
